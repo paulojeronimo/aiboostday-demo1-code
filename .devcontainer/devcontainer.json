@@ -1,0 +1,13 @@
+{
+  "containerEnv": {
+    "NEXT_PUBLIC_API_BASE_URL": "https://${localEnv:CODESPACE_NAME}-3000.${localEnv:GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}/api"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js App",
+      "onAutoForward": "notify",
+      "visibility": "public"
+    }
+  }
+}

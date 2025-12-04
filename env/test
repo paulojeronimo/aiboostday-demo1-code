@@ -1,0 +1,11 @@
+NEXT_PUBLIC_API_BASE_URL=https://margot-smugger-superlocally.ngrok-free.dev/api
+NEXT_PUBLIC_BASE_PATH=/aiboostday-demo1
+
+DEPLOY_REPO_SSH=git@github.com:paulojeronimo/aiboostday-demo1.git
+DEPLOY_BRANCH=gh-pages
+DEPLOY_DIR=.gh-pages-deploy
+DEPLOY_PRUNE_REMOTE_BRANCHES=true
+
+API_ALLOWED_ORIGINS=http://localhost:3000,https://paulojeronimo.com
+SKIP_APP_API_EXPORT=true
+FRONTEND_URL=https://paulojeronimo.com/aiboostday-demo1
